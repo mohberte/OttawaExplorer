@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 import picture1 from "../assets/ottawa2.jpg";
 import picture2 from "../assets/ottawa3.jpg";
 import picture3 from "../assets/park.jpg";

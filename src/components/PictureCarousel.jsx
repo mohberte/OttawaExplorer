@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import picture1 from "../assets/ottawa1.jpg";
 import picture2 from "../assets/parliament1.jpg";
@@ -31,5 +32,3 @@ class PictureCarousel extends Component {
         );
     }
 };
-
-export default PictureCarousel;
