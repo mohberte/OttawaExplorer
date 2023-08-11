@@ -1,5 +1,5 @@
 import React from "react";
-import DiscoveryCarousel from "../components/DiscoveryCarousel";
+// import DiscoveryCarousel from "../components/DiscoveryCarousel";
 import picture1 from "../assets/aviation1.jpg";
 import picture2 from "../assets/beckta.jpg";
 import picture3 from "../assets/gezellig.jpeg";
@@ -158,7 +158,7 @@ function OurApp() {
         <p className="text-center mt-2">Aperito</p>
     </div>
 </div>
-<DiscoveryCarousel/>
+{/* <DiscoveryCarousel/> */}
       </div>
     </>
   );
