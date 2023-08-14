@@ -9,7 +9,6 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-
   return (
     <div className="w-full h-[60px] bg-[#0A0A0A]">
       <div className="px-4 lg:px-14 mx-auto flex justify-between items-center h-full">
@@ -38,28 +37,7 @@ const Navbar = () => {
               <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Home
               </li>
-            </motion.a>
-            <motion.a
-              href="/about"
-              initial={{ x: "500px" }}
-              animate={{ x: 0 }}
-              transition={{ duration: 0.7 }}
-            >
-              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                About Us
-              </li>
-            </motion.a>
-            <motion.a
-              href="/app"
-              initial={{ x: "500px" }}
-              animate={{ x: 0 }}
-              transition={{ duration: 0.7 }}
-            >
-              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                Explore
-              </li>
-            </motion.a>
-            
+              </motion.a>
           </ul>
         </div>
 
@@ -91,36 +69,6 @@ const Navbar = () => {
             <a href="/">
               <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Home
-              </li>
-            </a>
-            <a href="/about">
-              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                About Us
-              </li>
-            </a>
-            <a href="/app">
-              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                App
-              </li>
-            </a>
-            <a href="/store">
-              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Store
-              </li>
-            </a>
-            <a href="/blog">
-              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Blog
-              </li>
-            </a>
-            <a href="/support">
-              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Support
-              </li>
-            </a>
-            <a href="/contact">
-              <li className="text-2xl pt-8 pb-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Contact
               </li>
             </a>
           </ul>

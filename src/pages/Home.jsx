@@ -6,6 +6,7 @@ import Features from "../components/Features";
 import WhyUs from "../components/WhyUs";
 import Pricing from "../components/Pricing";
 import Companies from "../components/Companies";
+import OurApp from "./OurApp";
 //  import PictureCarousel from "../components/PictureCarousel";
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
       <Hero />
       <Features />
       <WhyUs />
-      {/* <PictureCarousel/> */}
+      <OurApp/>
       <Pricing />
     </>
   );
