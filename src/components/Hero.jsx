@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 // import Product1 from "../assets/product1.png";
-import customBackgroundImage from "../assets/gatineau-park.jpg";
+import customBackgroundImage from "../assets/ottawa1.jpg";
 
 
 const Hero = () => {
